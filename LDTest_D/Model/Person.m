@@ -14,6 +14,7 @@
     if (self == [super init]) {
         NSLog(@"----- 测试代码 -----");
         NSLog(@"=== 新添加的代码 ===");
+        NSLog(@"=== 0.0.5代码 ===");
     }
     return self;
 }
