@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "LDTest_D组件"
   s.description  = <<-DESC
+		LDTest_D测试组件
                    DESC
 
   s.homepage     = "https://github.com/LimboDemon"
