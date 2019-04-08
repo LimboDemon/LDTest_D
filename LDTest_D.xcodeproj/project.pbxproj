@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67E2A7B30F51754AB6B31A00 /* libPods-LDTest_DTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD01ED6173C1E9BA36DD2F4F /* libPods-LDTest_DTests.a */; };
 		924AE499225AF148003A9CE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE498225AF148003A9CE3 /* AppDelegate.m */; };
 		924AE49C225AF148003A9CE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE49B225AF148003A9CE3 /* ViewController.m */; };
 		924AE49F225AF148003A9CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924AE49D225AF148003A9CE3 /* Main.storyboard */; };
@@ -17,7 +16,6 @@
 		924AE4B1225AF149003A9CE3 /* LDTest_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE4B0225AF149003A9CE3 /* LDTest_DTests.m */; };
 		924AE4BC225AF149003A9CE3 /* LDTest_DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE4BB225AF149003A9CE3 /* LDTest_DUITests.m */; };
 		924AE4CC225AF15E003A9CE3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE4CB225AF15E003A9CE3 /* Person.m */; };
-		A04C68656CF7F62356147065 /* libPods-LDTest_DUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBE2AB4D229FC9C6B405DDB /* libPods-LDTest_DUITests.a */; };
 		BBAFAAB9F7DCDEBAC3AFD04A /* libPods-LDTest_D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E898655ABC0471DE95AE12 /* libPods-LDTest_D.a */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		0DBE2AB4D229FC9C6B405DDB /* libPods-LDTest_DUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDTest_DUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		723C47082685CC4875DBF7A6 /* Pods-LDTest_DTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_DTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_DTests/Pods-LDTest_DTests.release.xcconfig"; sourceTree = "<group>"; };
 		924AE494225AF148003A9CE3 /* LDTest_D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDTest_D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924AE497225AF148003A9CE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		924AE498225AF148003A9CE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,9 +58,6 @@
 		924AE4CB225AF15E003A9CE3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AD01ED6173C1E9BA36DD2F4F /* libPods-LDTest_DTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDTest_DTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC36D93C54048D827BF19E32 /* Pods-LDTest_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_D/Pods-LDTest_D.debug.xcconfig"; sourceTree = "<group>"; };
-		C30775CA937942C14F08DAFE /* Pods-LDTest_DTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_DTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_DTests/Pods-LDTest_DTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D201C103AB1AED687A5AEB1F /* Pods-LDTest_DUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_DUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_DUITests/Pods-LDTest_DUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB2C9CFB853F174D7D078105 /* Pods-LDTest_DUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_DUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_DUITests/Pods-LDTest_DUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E35DBF550C25F9C085BD3163 /* Pods-LDTest_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_D/Pods-LDTest_D.release.xcconfig"; sourceTree = "<group>"; };
 		E3E898655ABC0471DE95AE12 /* libPods-LDTest_D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDTest_D.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E2A7B30F51754AB6B31A00 /* libPods-LDTest_DTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04C68656CF7F62356147065 /* libPods-LDTest_DUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +93,6 @@
 			children = (
 				BC36D93C54048D827BF19E32 /* Pods-LDTest_D.debug.xcconfig */,
 				E35DBF550C25F9C085BD3163 /* Pods-LDTest_D.release.xcconfig */,
-				C30775CA937942C14F08DAFE /* Pods-LDTest_DTests.debug.xcconfig */,
-				723C47082685CC4875DBF7A6 /* Pods-LDTest_DTests.release.xcconfig */,
-				D201C103AB1AED687A5AEB1F /* Pods-LDTest_DUITests.debug.xcconfig */,
-				DB2C9CFB853F174D7D078105 /* Pods-LDTest_DUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -210,7 +198,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 924AE4C3225AF149003A9CE3 /* Build configuration list for PBXNativeTarget "LDTest_DTests" */;
 			buildPhases = (
-				C828D77BBAED79078567B766 /* [CP] Check Pods Manifest.lock */,
 				924AE4A8225AF149003A9CE3 /* Sources */,
 				924AE4A9225AF149003A9CE3 /* Frameworks */,
 				924AE4AA225AF149003A9CE3 /* Resources */,
@@ -229,7 +216,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 924AE4C6225AF149003A9CE3 /* Build configuration list for PBXNativeTarget "LDTest_DUITests" */;
 			buildPhases = (
-				04459B434325AC81BF94B392 /* [CP] Check Pods Manifest.lock */,
 				924AE4B3225AF149003A9CE3 /* Sources */,
 				924AE4B4225AF149003A9CE3 /* Frameworks */,
 				924AE4B5225AF149003A9CE3 /* Resources */,
@@ -314,28 +300,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04459B434325AC81BF94B392 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LDTest_DUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A268B3ECF22F416649A49B68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,28 +316,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LDTest_D-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C828D77BBAED79078567B766 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LDTest_DTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -593,7 +535,6 @@
 		};
 		924AE4C4225AF149003A9CE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C30775CA937942C14F08DAFE /* Pods-LDTest_DTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -612,7 +553,6 @@
 		};
 		924AE4C5225AF149003A9CE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 723C47082685CC4875DBF7A6 /* Pods-LDTest_DTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -631,7 +571,6 @@
 		};
 		924AE4C7225AF149003A9CE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D201C103AB1AED687A5AEB1F /* Pods-LDTest_DUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LDTest_DUITests/Info.plist;
@@ -649,7 +588,6 @@
 		};
 		924AE4C8225AF149003A9CE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB2C9CFB853F174D7D078105 /* Pods-LDTest_DUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LDTest_DUITests/Info.plist;
