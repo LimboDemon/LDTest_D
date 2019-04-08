@@ -12,7 +12,7 @@
 
 -(instancetype)init{
     if (self == [super init]) {
-        
+        NSLog(@"----- 测试代码 -----");
     }
     return self;
 }

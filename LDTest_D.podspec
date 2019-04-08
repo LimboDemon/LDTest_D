@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LDTest_D"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "LDTest_D组件"
   s.description  = <<-DESC
 		LDTest_D测试组件
