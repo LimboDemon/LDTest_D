@@ -15,8 +15,8 @@
 		924AE4A7225AF149003A9CE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE4A6225AF149003A9CE3 /* main.m */; };
 		924AE4B1225AF149003A9CE3 /* LDTest_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE4B0225AF149003A9CE3 /* LDTest_DTests.m */; };
 		924AE4BC225AF149003A9CE3 /* LDTest_DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE4BB225AF149003A9CE3 /* LDTest_DUITests.m */; };
-		924AE4CC225AF15E003A9CE3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 924AE4CB225AF15E003A9CE3 /* Person.m */; };
-		92B327F6225D89CB00E9FEC6 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B327F5225D89CB00E9FEC6 /* Test.m */; };
+		92FDB96D225DF97E00E55317 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDB96B225DF97E00E55317 /* Test.m */; };
+		92FDB970225DF98600E55317 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDB96F225DF98600E55317 /* Person.m */; };
 		BBAFAAB9F7DCDEBAC3AFD04A /* libPods-LDTest_D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E898655ABC0471DE95AE12 /* libPods-LDTest_D.a */; };
 /* End PBXBuildFile section */
 
@@ -55,10 +55,10 @@
 		924AE4B7225AF149003A9CE3 /* LDTest_DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDTest_DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		924AE4BB225AF149003A9CE3 /* LDTest_DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDTest_DUITests.m; sourceTree = "<group>"; };
 		924AE4BD225AF149003A9CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		924AE4CA225AF15E003A9CE3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		924AE4CB225AF15E003A9CE3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		92B327F4225D89CB00E9FEC6 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		92B327F5225D89CB00E9FEC6 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		92FDB96B225DF97E00E55317 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		92FDB96C225DF97E00E55317 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		92FDB96E225DF98600E55317 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		92FDB96F225DF98600E55317 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AD01ED6173C1E9BA36DD2F4F /* libPods-LDTest_DTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDTest_DTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC36D93C54048D827BF19E32 /* Pods-LDTest_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_D/Pods-LDTest_D.debug.xcconfig"; sourceTree = "<group>"; };
 		E35DBF550C25F9C085BD3163 /* Pods-LDTest_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTest_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDTest_D/Pods-LDTest_D.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,8 +125,7 @@
 		924AE496225AF148003A9CE3 /* LDTest_D */ = {
 			isa = PBXGroup;
 			children = (
-				92B327F3225D89BC00E9FEC6 /* Test */,
-				924AE4C9225AF153003A9CE3 /* Model */,
+				92FDB968225DF8EE00E55317 /* LDTest */,
 				924AE497225AF148003A9CE3 /* AppDelegate.h */,
 				924AE498225AF148003A9CE3 /* AppDelegate.m */,
 				924AE49A225AF148003A9CE3 /* ViewController.h */,
@@ -158,22 +157,31 @@
 			path = LDTest_DUITests;
 			sourceTree = "<group>";
 		};
-		924AE4C9225AF153003A9CE3 /* Model */ = {
+		92FDB968225DF8EE00E55317 /* LDTest */ = {
 			isa = PBXGroup;
 			children = (
-				924AE4CA225AF15E003A9CE3 /* Person.h */,
-				924AE4CB225AF15E003A9CE3 /* Person.m */,
+				92FDB96A225DF97200E55317 /* LD */,
+				92FDB969225DF96A00E55317 /* Model */,
 			);
-			path = Model;
+			path = LDTest;
 			sourceTree = "<group>";
 		};
-		92B327F3225D89BC00E9FEC6 /* Test */ = {
+		92FDB969225DF96A00E55317 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				92B327F4225D89CB00E9FEC6 /* Test.h */,
-				92B327F5225D89CB00E9FEC6 /* Test.m */,
+				92FDB96E225DF98600E55317 /* Person.h */,
+				92FDB96F225DF98600E55317 /* Person.m */,
 			);
-			path = Test;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		92FDB96A225DF97200E55317 /* LD */ = {
+			isa = PBXGroup;
+			children = (
+				92FDB96C225DF97E00E55317 /* Test.h */,
+				92FDB96B225DF97E00E55317 /* Test.m */,
+			);
+			name = LD;
 			sourceTree = "<group>";
 		};
 		CE61D17F46EF066A938D0813 /* Frameworks */ = {
@@ -342,10 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B327F6225D89CB00E9FEC6 /* Test.m in Sources */,
 				924AE49C225AF148003A9CE3 /* ViewController.m in Sources */,
+				92FDB96D225DF97E00E55317 /* Test.m in Sources */,
+				92FDB970225DF98600E55317 /* Person.m in Sources */,
 				924AE4A7225AF149003A9CE3 /* main.m in Sources */,
-				924AE4CC225AF15E003A9CE3 /* Person.m in Sources */,
 				924AE499225AF148003A9CE3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

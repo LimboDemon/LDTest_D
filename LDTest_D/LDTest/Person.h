@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "../Test/Test.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
+
+//@property (nonatomic, strong) Test *test;
 
 @end
 

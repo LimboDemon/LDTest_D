@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LDTest_D"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "LDTest_D组件"
   s.description  = <<-DESC
 		LDTest_D测试组件
@@ -55,12 +55,14 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.subspec 'Model' do |ss|
-	ss.source_files = "LDTest_D/Model/**/*"
-  end
 
-  s.subspec 'Test' do |ss|
-	ss.source_files = "LDTest_D/Test/**/*"
+  s.subspec 'LDTest' do |ss|
+          ss.subspec 'Model' do |sss|
+		ss.source_files = "LDTest_D/LDTest/Person.{h,m}"
+  	  end
+          ss.subspec 'LD' do |sss|
+		ss.source_files = "LDTest_D/LDTest/Test.{h,m}"
+  	  end
   end
 
 end
