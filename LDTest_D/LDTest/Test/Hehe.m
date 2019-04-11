@@ -14,7 +14,7 @@
 -(instancetype)init{
     if (self == [super init]) {
         NSLog(@"----");
-        NSLog(@"0.2.3 dev");
+        NSLog(@"0.2.5 dev");
     }
     return self;
 }
