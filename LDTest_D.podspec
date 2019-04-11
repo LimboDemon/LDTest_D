@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LDTest_D"
-  s.version      = "0.2.0"
+  s.version      = "0.2.2"
   s.summary      = "LDTest_D组件"
   s.description  = <<-DESC
 		LDTest_D测试组件
@@ -25,6 +25,9 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
+
+  # s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git", :branch => "master" }
+  # s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git", :tag => "#{s.version}"}
   s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git" ,:tag => "#{s.version}", :branch => "dev"}
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
