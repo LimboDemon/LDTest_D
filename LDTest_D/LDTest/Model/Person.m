@@ -16,6 +16,7 @@
         NSLog(@"dev特有");
         NSLog(@"dev特有");
         NSLog(@"dev特有");
+        NSLog(@"dev特有");
     }
     return self;
 }
