@@ -13,7 +13,7 @@
 
 -(instancetype)init{
     if (self == [super init]) {
-
+        NSLog(@"----");
     }
     return self;
 }
