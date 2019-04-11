@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   # s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git", :branch => "master" }
   # s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git", :tag => "#{s.version}"}
-  s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git",:branch => master,:tag => s.version, :submodules => true}
+  s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git",:branch => 'master',:tag => s.version, :submodules => true}
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
