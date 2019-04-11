@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git" ,:tag => "#{s.version}", :branch => "master"}
+  s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git" ,:tag => "#{s.version}", :branch => "dev"}
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
