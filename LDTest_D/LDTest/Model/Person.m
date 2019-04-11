@@ -15,6 +15,7 @@
     if (self == [super init]) {
         NSLog(@"dev特有");
         NSLog(@"dev特有");
+        NSLog(@"dev特有");
     }
     return self;
 }
