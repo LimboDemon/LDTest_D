@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LDTest_D"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "LDTest_D组件"
   s.description  = <<-DESC
 		LDTest_D测试组件
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/LimboDemon/LDTest_D.git" ,:tag => "#{s.version}", :branch => "master"}
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
@@ -57,12 +57,16 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   s.subspec 'LDTest' do |ss|
-          ss.subspec 'Model' do |sss|
-		ss.source_files = "LDTest_D/LDTest/Person.{h,m}"
-  	  end
-          ss.subspec 'LD' do |sss|
-		ss.source_files = "LDTest_D/LDTest/Test.{h,m}"
-  	  end
+
+	ss.source_files = "LDTest_D/LDTest/Model/Person.*"
+
   end
+
+  s.subspec 'Model' do |ss|
+	ss.source_files = "LDTest_D/LDTest/Test/Hehe.*"
+  	  
+  end
+
+
 
 end
